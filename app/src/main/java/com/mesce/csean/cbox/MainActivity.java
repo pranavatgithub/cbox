@@ -41,6 +41,7 @@ public class MainActivity extends Activity implements SensorEventListener, Locat
     public String noloc;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
