@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mesce.csean.cbox.Startup"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CONFIGURE CBOX"
+        android:layout_alignParentTop="true"
+        android:id="@+id/textView3"
+        android:textColor="@color/material_deep_teal_200" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Phone number"
+        android:id="@+id/textView"
+        android:layout_marginTop="37dp"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/material_deep_teal_200" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phonenumber"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:lines="1"
+        android:minLines="1"
+        android:phoneNumber="false"
+        android:inputType="phone"
+        android:maxWidth="10dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="done"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:onClick="show"
+        android:layout_alignEnd="@+id/textView3"
+        android:textColor="@color/material_deep_teal_200" />
+
+</RelativeLayout>

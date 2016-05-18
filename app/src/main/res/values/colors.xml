@@ -1,0 +1,16 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="primary_material_light">#009688</color>
+    <color name="black">#019183</color>
+    <color name="colorPrimaryDark">#029082</color>
+    <color name="foreground_material_light">#ffffff</color>
+    <color name="primary_text_material_light">#ffffff</color>
+    <color name="primary_dark_material_light">#9e0b0b</color>
+    <color name="secondary_text_material_dark">#0fc327</color>
+    <color name="secondary_text_material_light">#cf1919</color>
+    <color name="background_material_light">#da0b0b</color>
+    <color name="primary_material_light_1">#000000</color>
+
+</resources>
